@@ -2,11 +2,12 @@ package jsonexporter
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
-	"github.com/kawamuray/jsonpath" // Originally: "github.com/NickSardo/jsonpath"
-	"github.com/kawamuray/prometheus-exporter-harness/harness"
 	"io/ioutil"
 	"net/http"
+
+	log "github.com/Sirupsen/logrus"
+	"github.com/yjbdsky/jsonpath" // Originally: "github.com/NickSardo/jsonpath"
+	"github.com/yjbdsky/prometheus-exporter-harness/harness"
 )
 
 type Collector struct {
